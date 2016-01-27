@@ -1,0 +1,73 @@
+/* ---------------------------------------------------------------------------------------------------- */
+/* RESET CSS */
+
+/* 0. Resetting css is highly recommended; this overrides some default browser styles and allows you to 
+start from a "blank slate". See this page for more information (http://cssreset.com/) and copy in one
+of the versions below. */
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* GENERAL STYLES */
+
+/* 1. Set the page background to a color (ex. #eee for light gray) or to a background image.
+/* 2. Define the text font, size, color, boldness, and line height that will apply to the whole page. */
+
+body {
+    background: ;
+    color: ;
+    font-family: ;
+    font-size: ;
+    line-height: ;
+}
+
+h1 {
+    font-size: ;
+    font-weight: ;
+}
+
+p {
+    color: ;
+    line-height: ;
+}
+
+/* 3. Specify the default text color for links (ex. #1fa1fa for a light blue) */
+a {
+    color: ;
+}
+
+a:hover {
+    color: ;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* STRUCTURE */
+
+/* 4. Set the width of the "wrapper" div to 700px and make it centered in the middle of the page. */
+/* 	  Give the wrapper a padding of 20px all around.  */
+#wrapper {
+    background: ;
+    margin: ;
+    width: ;
+}
+
+/* 5. Set the background color of the header to another color (ex. #222 for dark gray) */
+/*    If you chose a dark color for the background, set the text color to a lighter color (ex. #fff for white) */
+#header {
+    background: ;
+    color: ;
+    padding: ;
+}
+
+#content {
+    padding: ;
+}
+
+/* 6. Set the width of the "container" div to 600px and the height to 400px. */
+#container {
+	width: ;
+	height: ;
+	margin: ;
+}

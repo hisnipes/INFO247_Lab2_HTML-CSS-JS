@@ -1,0 +1,76 @@
+<!--
+GOALS FOR THIS LAB:
+
+1.) Learn how to set up a basic HTML page structure
+2.) Load the main.css stylesheet in the <head>
+3.) Load the Highcharts script in the <head>
+4.) Add a <h1> heading in the <body>
+5.) Insert a <div> with the ID "container" in the <body>
+6.) Configure the Highcharts script
+7.) Edit the main.css stylesheet to add styling to your page.
+-->
+
+
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Lab 02 - HTML, CSS, JavaScript</title>
+    
+    <!-- Create a link to the main.css stylesheet -->
+
+    <!-- Create a link to the latest version of jQuery, which is located here: https://code.jquery.com/jquery-1.12.0.min.js -->
+
+    <!-- Create a link to the Highcharts script file, which is located here: https://code.highcharts.com/highcharts.js -->
+
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <div id="header">
+            <!-- Enter a <h1> heading of your choice -->
+            <!-- Enter a <p> description about this page -->
+            <!-- Include a dummy <a> link -->
+        </div>
+
+        <div id="content">
+            <!-- Create a div with an ID -->
+        </div>
+
+    </div>
+
+    <script>
+        $(function () {
+            /***********************************************************************
+            Configure the Highchart with these options:
+
+            - The chart type is a "Column" chart
+            - The chart title is "Lab 02 Highchart"
+            - The xAxis categories are every month of the year
+            - The yAxis has a minimum of 0 and its title is "Rainfall (mm)"
+            - Plot options for this column chart include a 0.2 
+            - The series data has the following values:
+
+              Tokyo:
+              49.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4
+
+              New York:
+              83.6, 78.8, 98.5, 93.4, 106.0, 84.5, 105.0, 104.3, 91.2, 83.5, 106.6, 92.3
+
+              London:
+              48.9, 38.8, 39.3, 41.4, 47.0, 48.3, 59.0, 59.6, 52.4, 65.2, 59.3, 51.2
+
+              Berlin:
+              42.4, 33.2, 34.5, 39.7, 52.6, 75.5, 57.4, 60.4, 47.6, 39.1, 46.8, 51.1
+            ***********************************************************************/
+
+            $('').highcharts({
+                /* ENTER YOUR CODE HERE */
+            });
+
+        });
+    </script>
+
+</body>
+
+</html>
